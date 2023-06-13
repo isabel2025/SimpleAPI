@@ -13,14 +13,8 @@ namespace SimpleAPI.test
          {
              WeatherForecastController controller = new WeatherForecastController(mockLogger.Object);
              var returnValue = controller.Get();
-             Assert.Equal("Isabel", returnValue);
+             Assert.Equal("Isabel Prempeh", returnValue);
         }
 
-
-        [Fact]
-        public void Test1()
-        {
-
-        }
     }
 }
